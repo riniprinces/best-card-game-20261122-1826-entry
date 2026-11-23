@@ -102,8 +102,12 @@ body {
   transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
   transform: rotate(var(--tilt, 0deg));
 }
-#player-hand .card { margin-left: -40px; }
-#player-hand.tight .card { margin-left: -58px; }
+#player-hand .card { margin-left: -6px; }
+#player-hand.tight .card { margin-left: -6px; width: 118px; height: 164px; border-width: 2px; }
+#player-hand.tight .card .art { font-size: 40px; height: 62px; }
+#player-hand.tight .card .card-name { font-size: 12px; }
+#player-hand.tight .card .card-text { font-size: 10px; padding: 0 6px; }
+#player-hand.tight .card .cost { width: 26px; height: 26px; font-size: 15px; }
 #player-hand .card:first-child { margin-left: 0; }
 .card.small { width: 118px; height: 164px; border-width: 2px; }
 .card.small .art { font-size: 40px; height: 62px; }
